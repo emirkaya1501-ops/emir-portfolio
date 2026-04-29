@@ -1,0 +1,301 @@
+{
+  "nav": {
+    "services": "Hizmetler",
+    "portfolio": "Projeler",
+    "about": "Hakkımda",
+    "contact": "İletişim",
+    "cta": "İşe Al"
+  },
+  "hero": {
+    "badge": "Yapay Zeka & Web Otomasyon Uzmanı",
+    "title_line1": "Uyurken Bile Çalışan",
+    "title_line2": "Sistemler İnşa Ediyorum",
+    "subtitle": "Yapay zeka otomasyonlarından yüksek dönüşümlü web sitelerine — işletmenizin zaman kazanmasını, maliyetleri azaltmasını ve gerçekten işe yarayan dijital sistemlerle daha akıllı büyümesini sağlıyorum.",
+    "cta_primary": "Projelerimi İncele",
+    "cta_secondary": "İletişime Geç",
+    "scroll_hint": "Aşağı kaydır"
+  },
+  "about": {
+    "tag": "Hakkımda",
+    "title": "Sonuç Odaklı Dijital Çözüm Geliştirici",
+    "bio_1": "Yapay zeka otomasyon sistemleri ve modern web geliştirme konusunda uzmanlaşmış serbest bir geliştiriciyim. 4+ yıllık uygulamalı deneyimimle işletmelerin tekrarlayan görevleri ortadan kaldırmasına, operasyonlarını düzene koymasına ve sadece iyi görünen değil gerçekten işe yarayan dijital sistemler kurmasına yardımcı oluyorum.",
+    "bio_2": "Yaklaşımım basit: önce iş sorununu anla, sonra en etkili çözümü geliştir. n8n ile iş akışını otomatize etmek, yüksek dönüşümlü bir web sitesi geliştirmek ya da yapay zekayı günlük operasyonlarınıza entegre etmek — ölçülebilir ve kalıcı sonuçlar sunuyorum.",
+    "stats": [
+      {
+        "value": "50+",
+        "label": "Teslim Edilen Proje"
+      },
+      {
+        "value": "95%",
+        "label": "Müşteri Memnuniyeti"
+      },
+      {
+        "value": "10b+",
+        "label": "Otomatize Edilen Saat"
+      },
+      {
+        "value": "4+",
+        "label": "Yıl Deneyim"
+      }
+    ]
+  },
+  "services": {
+    "tag": "Hizmetler",
+    "title": "Ne İnşa Ediyorum",
+    "subtitle": "Gerçek ve ölçülebilir iş etkisi yaratan uçtan uca dijital çözümler.",
+    "items": [
+      {
+        "id": "automation",
+        "icon": "Zap",
+        "gradient": "from-blue-500 to-cyan-500",
+        "title": "Yapay Zeka Otomasyon Sistemleri",
+        "description": "n8n, yapay zeka API'leri ve akıllı entegrasyonlar kullanarak özel iş akışı otomasyonu. Manuel görevleri ortadan kaldırın, araçlarınızı birbirine bağlayın ve işletmenizin 7/24 hatasız şekilde otomatik çalışmasını sağlayın.",
+        "features": [
+          "n8n İş Akışları",
+          "Yapay Zeka / GPT Entegrasyonları",
+          "API Bağlantıları",
+          "7/24 Otomasyon"
+        ]
+      },
+      {
+        "id": "web",
+        "icon": "Globe",
+        "gradient": "from-violet-500 to-purple-500",
+        "title": "Web Geliştirme",
+        "description": "Modern, hızlı ve dönüşüm odaklı web siteleri ve açılış sayfaları. Next.js ve TailwindCSS ile geliştirilen, müşterileri etkileyen ve ziyaretçileri müşteriye dönüştüren piksel mükemmelliğinde performans.",
+        "features": [
+          "Next.js / React",
+          "TailwindCSS",
+          "SEO Optimizasyonu",
+          "Mobil Öncelikli Tasarım"
+        ]
+      },
+      {
+        "id": "systems",
+        "icon": "Cpu",
+        "gradient": "from-purple-500 to-pink-500",
+        "title": "İş Süreçleri Optimizasyonu",
+        "description": "Temel iş süreçlerinizi analiz edin, yeniden tasarlayın ve otomatize edin. CRM entegrasyonlarından özel raporlama panolarına — işletmenizin ölçeklenmesi için ihtiyaç duyduğu güvenilir dijital omurgayı inşa ediyorum.",
+        "features": [
+          "CRM Entegrasyonu",
+          "Veri Pipeline'ları",
+          "Özel Panolar",
+          "Süreç Denetimi"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "tag": "Projeler",
+    "title": "Seçili Çalışmalar",
+    "subtitle": "Gerçek projeler, gerçek sonuçlar. Akıllı dijital sistemlerle işletmelerin operasyonlarını nasıl dönüştürdüğümü görün.",
+    "categories": {
+      "all": "Tüm Projeler",
+      "automation": "Otomasyon",
+      "web": "Web Geliştirme"
+    },
+    "view_details": "Vaka Çalışmasını Gör",
+    "close": "Kapat",
+    "problem_label": "Problem",
+    "solution_label": "Çözüm",
+    "result_label": "Sonuç",
+    "tech_label": "Kullanılan Teknolojiler",
+    "metrics_label": "Temel Sonuçlar",
+    "projects": [
+      {
+        "id": "ecommerce-automation",
+        "category": "automation",
+        "title": "E-Ticaret Sipariş Otomasyon Sistemi",
+        "short_desc": "Bir online perakendecinin tüm sipariş karşılama sürecini otomatize ettim — her hafta 30+ saat tasarruf sağlayarak işlem hatalarını neredeyse sıfıra indirdim.",
+        "tags": [
+          "n8n",
+          "WooCommerce",
+          "Slack",
+          "E-posta"
+        ],
+        "problem": "Müşterinin ekibi her gün WooCommerce siparişlerini manuel olarak işlemek için 6+ saat harcıyordu — sistemler arasında veri kopyalamak, elle onay e-postaları göndermek, envanter tablolarını güncellemek ve depo ekibine WhatsApp üzerinden bildirim yapmak. Hatalar sıktı, gecikmeler müşteri memnuniyet puanlarını olumsuz etkiliyordu ve ekip tekrarlayan veri girişinden bunalım yaşıyordu.",
+        "solution": "Her yeni siparişte tetiklenen tam otomatik bir n8n iş akışı tasarladım ve kurdum. Sistem otomatik olarak markalı HTML onay e-postaları gönderiyor, tüm kanallarda envanteri gerçek zamanlı güncelliyor, depoya gerekli tüm kargo bilgilerini içeren formatlı bir Slack mesajı gönderiyor, otomatik kargo etiketleri oluşturuyor ve her siparişi durumu ile birlikte tüm ekibin canlı görebildiği bir Google Sheets panosuna kaydediyor.",
+        "result": "Operasyon ekibi haftada 30+ saatini geri kazandı — bu zamanı müşteri hizmetlerine ve büyümeye yatırdılar. Sipariş işleme süresi sipariş başına 4 dakikanın üzerinden 10 saniyenin altına düştü. İnsan kaynaklı hata oranı neredeyse sıfıra indi. Müşteri, sonraki 3 ayda gelirini %22 artırdı ve bunu doğrudan daha hızlı karşılama ve yüksek müşteri memnuniyetine bağladı.",
+        "metrics": [
+          "Haftada 30+ saat tasarruf",
+          "%98 daha az hata",
+          "< 10 sn işlem süresi",
+          "3 ayda +%22 gelir artışı"
+        ],
+        "thumb": "ecommerce"
+      },
+      {
+        "id": "restaurant-website",
+        "category": "web",
+        "title": "Restoran Zinciri Web Sitesi & Online Rezervasyon Sistemi",
+        "short_desc": "Çok lokasyonlu restoran için online rezervasyonları 60 günde %40 artıran modern bir web sitesi ve entegre rezervasyon sistemi geliştirdim.",
+        "tags": [
+          "Next.js",
+          "TailwindCSS",
+          "Supabase",
+          "Stripe"
+        ],
+        "problem": "4 lokasyonlu bir restoran zinciri 2014'ten kalma eski bir PHP sitesiyle çalışıyordu — mobil desteği yoktu, online rezervasyon imkânı sıfırdı ve menü güncellemeleri bir geliştirici gerektiriyordu (değişiklik başına haftalar sürüyordu). Daha iyi dijital deneyimlere sahip rakiplerine müşteri kaybettikleri açıkça görünüyordu ve personel, basit masa rezervasyonları için gelen telefon çağrılarıyla bunalıyordu.",
+        "solution": "Eksiksiz bir dijital varlık tasarlayıp geliştirdim: lokasyon bazında gerçek zamanlı masa müsaitliği sunan mobil öncelikli bir Next.js web sitesi, özel etkinlikler ve özel yemekler için online ön ödeme, personelin menüleri ve fotoğrafları dakikalar içinde güncelleyebildiği basit bir CMS paneli ve yöneticilere dört lokasyondaki tüm rezervasyonları tek bir ekrandan canlı gösteren yönetim panosu.",
+        "result": "Lansmandan 60 gün sonra: online rezervasyonlar %40 arttı, gelen telefon görüşmesi hacmi %60 düştü (servis sırasında önemli ölçüde personel zamanı serbest bıraktı) ve haftalarca süren menü güncellemeleri artık dakikalar alıyor. Site özerk olarak ayda 150+ rezervasyon üretiyor ve müşteri, kısmen kazanılan operasyonel verimlilik sayesinde 5. lokasyonunu açtı.",
+        "metrics": [
+          "+%40 online rezervasyon",
+          "-%60 telefon görüşmesi",
+          "Ayda 150+ rezervasyon",
+          "4 lokasyon merkezi yönetim"
+        ],
+        "thumb": "restaurant"
+      },
+      {
+        "id": "lead-crm-automation",
+        "category": "automation",
+        "title": "Yapay Zeka Destekli Lead & CRM Otomasyon Pipeline'ı",
+        "short_desc": "Nitelikli lead işleme kapasitesini üçe katlayan ve lead-toplantı dönüşümünü %45 artıran uçtan uca otomatik lead zekası sistemi kurdum.",
+        "tags": [
+          "n8n",
+          "HubSpot",
+          "OpenAI",
+          "Typeform"
+        ],
+        "problem": "Bir B2B hizmet şirketi, web sitesi formları, LinkedIn ve ücretli reklamlar gibi birden fazla kanaldan aylık 200+ lead alıyordu; ancak bunları birleştirmek, nitelendirmek veya tutarlı şekilde takip etmek için hiçbir sistemi yoktu. Leadlar sürekli kaçıyordu. Satış ekibi, sıcak ve soğuk adayların karmaşık yığınını manuel olarak sıralamak için haftada saatler harcıyor, çoğu zaman çok geç ya da hiç ulaşmıyordu.",
+        "solution": "Tam otomatik bir lead zekası pipeline'ı kurdum: tüm kanallardan gelen her lead otomatik olarak yakalanıyor, üçüncü taraf API'ler aracılığıyla firmografi verileriyle zenginleştiriliyor ve ardından müşterinin ideal müşteri profilinde eğitilmiş bir OpenAI modeliyle puanlanıyor. Yüksek puanlı leadlar, formu göndermelerinin dakikaları içinde kişiselleştirilmiş, bağlama duyarlı bir outreach e-postası alıyor. Düşük puanlılar yapılandırılmış bir besleme dizisine giriyor. Her şey — anlaşmalar, iletişim kayıtları ve pipeline aşamaları — otomatik olarak HubSpot ile senkronize oluyor.",
+        "result": "Satış ekibi artık yalnızca önceden nitelendirilmiş, yüksek niyetli leadlarla ilgileniyor. Tek bir yeni işe alım olmadan lead işleme kapasitesi üçe katlandı. Lead-toplantı dönüşüm oranı %45 arttı. Ekip, manuel sıralama ve veri girişine harcanan haftada 15 saatini geri kazandı. Hiçbir lead asla kaçmıyor.",
+        "metrics": [
+          "3× lead işleme kapasitesi",
+          "+%45 lead-toplantı dönüşümü",
+          "Haftada 15 saat geri kazanıldı",
+          "0 kaybolan lead"
+        ],
+        "thumb": "crm"
+      },
+      {
+        "id": "dental-clinic-automation",
+        "category": "automation",
+        "title": "Dis Klinigi AI E-posta ve Randevu Otomasyon Sistemi",
+        "short_desc": "GPT-4o-mini ile her hasta e-postasini okuyup talep turunu ve aciliyeti siniflandiran, otomatik randevu olusturan ve 3 kisisellestirilmis e-posta gonderen 7 dugumlu bir AI is akisi gelistirdim.",
+        "tags": [
+          "n8n",
+          "GPT-4o-mini",
+          "Gmail",
+          "Google Sheets"
+        ],
+        "problem": "Yogun bir dis klinigi, hasta e-postalarini tek tek okumak, bunun rutin bir kontrol talebi mi yoksa acil bir dis agrisi vakasi mi oldugunu belirlemek, ardindan randevu olusturmak ve bireysel onay e-postalari yazmak zorunda kaliyordu. Personel her gun yalnizca e-posta yonetimine 3 saatten fazla harciyordu. Acil vakalar bazen saatlerce yanit beklemek zorunda kaliyor, bu da hasta guveni ile klingin kurumsal imajina zarar veriyordu.",
+        "solution": "Her yeni Gmail mesajinda tetiklenen tam otomatik 7 dugumlu bir n8n is akisi gelistirdim. GPT-4o-mini e-posta konusunu ve icerigini okuyarak talep turunu ve aciliyet duzeyini siniflandiriyor, hastanin adi ve iletisim bilgilerini cikariyor. Ozel bir kod dugumu aciliyete gore optimal randevu slotunu hesapliyor; yuksek aciliyetli vakalar ertesi sabaha, orta aciliyetlikiler 2 gune, rutin talepler ise 3 gune ayarlaniyor. Her hasta kaydi Google Sheets panosuna isleniyor. Son olarak uc e-posta otomatik gonderiliyor: aninda okundu onay maili, kisilestirilmis hazirlik talimatlariyla randevu onay maili ve klinik ekibine ic bildirim.",
+        "result": "Klinik gunluk 3 saatten fazla e-posta yonetim yukunden tamamen kurtuldu. Hasta yanit suresi her e-posta icin saatlerden 2 dakikanin altina indi. Acil vakalar otomatik olarak isaretleniyor ve randevu aliniyor; hicbiri kacmiyor. Klinik artik ayni personel kadrosuyla yuzde 40 daha fazla hasta hacmini karsilayabiliyor ve hasta memnuniyet puanlari ciddi bicimde yukseldi.",
+        "metrics": [
+          "Gunluk 3+ saat yuk ortadan kaldirildi",
+          "< 2 dk yanit suresi",
+          "%40 daha fazla hasta hacmi",
+          "0 kacirilan acil vaka"
+        ],
+        "thumb": "dental"
+      },
+      {
+        "id": "youtube-shorts-ai",
+        "category": "automation",
+        "title": "Tam Otomatik YouTube Shorts Uretim Pipeline'i",
+        "short_desc": "Trend konulari arastiran, Claude ile senaryo yazan, ElevenLabs ile seslendirme yapan, Pexels'tan video bulan, Creatomate ile render eden ve YouTube'a yukleyen 20+ dugumlu AI pipeline'i gelistirdim.",
+        "tags": [
+          "n8n",
+          "Claude AI",
+          "ElevenLabs",
+          "Pexels",
+          "Creatomate",
+          "YouTube"
+        ],
+        "problem": "Bir icerik uretici iki YouTube Shorts kanalini ayni anda isletmek istiyordu ancak manuel uretim sureci video basina 4-6 saat aliyordu: trend konu arastirma, senaryo yazma, seslendirme kaydi, video duzenlemesi, altyazi ekleme ve SEO optimize yukleme. Kanal basina haftada bir video hedefinde bu 8-12 saat saf uretim yukune denk geliyordu; tamamen surdurulemez bir modeldi.",
+        "solution": "20 dugumden fazla tam otomatik bir uretim pipeline'i gelistirdim: Her Pazartesi zamanlanmis tetikleyici devreye giriyor, Tavily AI guncel konulari aratiyor, Claude Sonnet en iyi 3 konuyu seciyor ve hedef dilde 60 saniyelik senaryo yazarak seslendiriyor, ElevenLabs senaryoyu dogal sesli seslendirmeye donusturuyor, Pexels API portret stok goruntulerini buluyor, Creatomate ses ve videoyu birlestirip altyazili Shorts render ediyor, icerik uretici ONAYLA/REDDET dugmeli Gmail on izleme aliyor, tek tiklama is akisini devam ettiriyor, onaylanan videolar YouTube'a ozel taslak olarak yukleniyor.",
+        "result": "Video basina uretim suresi 4-6 saatten haftada 15 dakikalik inceleme seansina indi. Her iki kanal da tam otopilotta calisiyor. Icerik uretici sifir uretim yuku ile haftada 2 profesyonel kalitede Shorts uretiyor ve kazanilan zamanla uzun bicimdeki icerik stratejisine odaklanabiliyor.",
+        "metrics": [
+          "4-6 saatten 15 dk/video'ya indi",
+          "2 kanal tam otopilotta",
+          "Tek tikla insan onayi",
+          "Uretimin %100'u otomatik"
+        ],
+        "thumb": "youtube"
+      },
+      {
+        "id": "kaya-website",
+        "category": "web",
+        "thumb": "kaya",
+        "live_url": "https://bejewelled-kataifi-6984e4.netlify.app",
+        "title": "KAYA Çit Sistemleri — Kurumsal Web Sitesi",
+        "short_desc": "İstanbul'da 20 yıllık deneyime sahip bir çit imalatçısı için sıfırdan kurumsal web sitesi geliştirdim — hizmet vitrini, 21 fotoğraflı proje galerisi, WhatsApp canlı destek widget'ı ve mobil öncelikli tasarım.",
+        "tags": ["HTML/CSS", "JavaScript", "WhatsApp API", "Responsive"],
+        "problem": "İstanbul Çatalca'da 20+ yıllık deneyime sahip premium çit ve kapı üreticisi KAYA'nın sıfır dijital varlığı vardı. Potansiyel müşteriler onları internet üzerinden bulamıyor, tamamlanmış projelere göz atamıyor ya da telefon açmadan teklif alamıyordu. Tüm lead üretimi tamamen ağızdan ağıza tavsiyeye bağlıydı.",
+        "solution": "Sıfırdan eksiksiz bir kurumsal web sitesi tasarladım ve geliştirdim: profesyonel fotoğraflar ve animasyonlu istatistiklerle sinematik bir hero bölümü, Panel Çit, Galvaniz Örgü Sistemleri ve Mimari Kapı İmalatını sergileyen hizmetler bölümü, 21 gerçek tamamlanmış proje fotoğrafını gösteren tam ekran proje galerisi, anlık lead yakalama için WhatsApp canlı sohbet widget'ı, telefon, WhatsApp ve konum bağlantılarıyla iletişim bölümü ve tüm cihazlar için optimize edilmiş tamamen responsive mobil öncelikli tasarım.",
+        "result": "KAYA artık ziyaretçileri 7/24 birden fazla iletişim kanalı aracılığıyla lead'e dönüştüren profesyonel bir dijital varlığa sahip. 21 fotoğraflı proje galerisi potansiyel müşterilerde anında güven oluşturuyor. WhatsApp chat widget'ı mesai saatleri dışında bile lead yakalıyor. Müşteri artık 20 yıl sonra ilk kez organik olarak bulunabiliyor ve dijital olarak referans gösterilebiliyor.",
+        "metrics": ["21 gerçek proje fotoğrafı", "WhatsApp 7/24 lead yakalama", "3 hizmet alanı vitrini", "Mobil öncelikli responsive tasarım"]
+      },
+      {
+        "id": "blockchain-newsletter",
+        "category": "automation",
+        "thumb": "blockchain",
+        "title": "Blockchain Intelligence Brief — Yapay Zeka Destekli Gunluk Bolten",
+        "short_desc": "Claude Opus 4 destekli 25 dugumlu paralel arastirma pipeline i ile 5 blockchain konusunu ayni anda arastirip markalı HTML bolten haline getiren ve her sabah 7:00 UTC de abonelere ileten tam otomatik sistem gelistirdim.",
+        "tags": [
+          "n8n",
+          "Claude Opus 4",
+          "Claude Haiku",
+          "Tavily",
+          "Gmail"
+        ],
+        "problem": "Bir blockchain teknoloji danismanlik sirketi, yonetim ekibine ve kritik musterilerine gunluk bir istihbarat bulteni gondermek istiyordu: AI+blockchain, kurumsal benimseme, zincirler arasi altyapi, fonlama turlari ve akilli sozlesme guvenligini kapsayan 5 ayri konuda. Arastirma ve yazma sureci bolten basina 4 saatten fazla aliyordu. Ekip, musteri projeleriyle birlikte bu is yuku surduremiyordu.",
+        "solution": "Her sabah 7:00 UTC de tetiklenen 25 dugumlu otomatik bir arastirma ve yayinlama pipeline i gelistirdim: Bes Tavily AI arastirma akisi ayni anda basliyor, her biri kure gun Bitcoin, DeFi, NFT ve blockchain haberlerini tarayan oncu kaynaklardan en guncel makaleleri cekiyor. Her akim, Claude Opus 4 ajanina besleniyor; ajan ham sonuclari okuyarak en onemli iki haberi seciyor ve TL DR, Ne Oldu, Sirketlere Etkisi ve Takip Edilecekler bolumlerinden olusan yapilandirilmis blog yazilari yazıyor. Birlestirme dugumu bes konunun tum ciktilarini topluyor, bir kod dugumu birlesik icerigi bicimlendiririyor ve Claude Haiku tam renk kodlu HTML e-posta bulteni olusturuyor. Gmail bulteni abonelere gonderiyor; IF dugumu basarili teslimatı dogruluyor, basarisiz olursa otomatik yeniden deneme tetikleniyor ve tum hatalar zaman damgalari ile Google Sheets e kaydediliyor.",
+        "result": "Gunluk bolten artık her sabah tam 7:00 UTC de hicbir manuel cabaya gerek olmadan yayinlaniyor. Arastirmadan teslimat a kadar gecen sure 4 saat iken 12 dakikaya indi. Her bolten, 5 konuda toplam 10 haberi ekip musaitliginden bagimsiz olarak tutarli bir sekilde sunuyor. Danismanlik sirketi, musterilerin bulteni kendi strateji toplantilarina tasimasiyla birlikte yeni proje talepleri almaya basladi.",
+        "metrics": [
+          "4 saat 12 dk bolten basina indi",
+          "5 konu 10 haber gunluk",
+          "7:00 UTC 365 gun boyunca",
+          "0 manuel arastirma"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "tag": "İletişim",
+    "title": "Birlikte Bir Şeyler İnşa Edelim",
+    "subtitle": "Aklınızda bir proje mi var? Anlatın. Her sorguya 24 saat içinde yanıt veriyorum.",
+    "form": {
+      "name_label": "Adınız",
+      "name_placeholder": "Ahmet Yılmaz",
+      "email_label": "E-posta Adresi",
+      "email_placeholder": "ahmet@sirket.com",
+      "message_label": "Projeniz hakkında bilgi verin",
+      "message_placeholder": "Sipariş sürecimi otomatize etmem / yeni bir web sitesi kurmam / yapay zekayı iş akışıma entegre etmem gerekiyor...",
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "success_title": "Mesaj Alındı!",
+      "success_body": "İletişime geçtiğiniz için teşekkürler. 24 saat içinde size döneceğim.",
+      "error": "Bir şeyler ters gitti. Lütfen doğrudan e-posta gönderin."
+    },
+    "direct_label": "Ya da doğrudan ulaşın",
+    "availability": "Yeni projeler için şu anda müsaitim",
+    "items": [
+      {
+        "icon": "Mail",
+        "label": "E-posta",
+        "value": "emir@example.com",
+        "href": "mailto:emir@example.com"
+      },
+      {
+        "icon": "MessageSquare",
+        "label": "WhatsApp",
+        "value": "+90 544 153 54 88",
+        "href": "https://wa.me/905441535488"
+      },
+      {
+        "icon": "Linkedin",
+        "label": "LinkedIn",
+        "value": "/in/emirkaya",
+        "href": "https://linkedin.com/in/emirkaya"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Ölçeklenen sistemler inşa ediyorum.",
+    "links_label": "Hızlı Bağlantılar",
+    "rights": "Tüm hakları saklıdır.",
+    "built_with": "Next.js & TailwindCSS ile yapıldı"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Hire Me"
+  },
+  "hero": {
+    "badge": "AI & Web Automation Expert",
+    "title_line1": "I Build Systems That",
+    "title_line2": "Work While You Sleep",
+    "subtitle": "From AI-powered automations to high-converting websites — I help businesses save time, reduce costs, and scale smarter with digital systems that actually deliver.",
+    "cta_primary": "View My Work",
+    "cta_secondary": "Get in Touch",
+    "scroll_hint": "Scroll to explore"
+  },
+  "about": {
+    "tag": "About Me",
+    "title": "Results-Driven Digital Builder",
+    "bio_1": "I'm a freelance developer specializing in AI automation systems and modern web development. With 4+ years of hands-on experience, I help businesses eliminate repetitive tasks, streamline operations, and build digital systems that actually work — not just look good.",
+    "bio_2": "My approach is simple: understand the business problem first, then engineer the most effective solution. Whether it's automating your workflow with n8n, building a high-converting website, or integrating AI into your daily operations — I deliver measurable, lasting results.",
+    "stats": [
+      { "value": "50+", "label": "Projects Delivered" },
+      { "value": "95%", "label": "Client Satisfaction" },
+      { "value": "10k+", "label": "Hours Automated" },
+      { "value": "4+", "label": "Years Experience" }
+    ]
+  },
+  "services": {
+    "tag": "Services",
+    "title": "What I Build",
+    "subtitle": "End-to-end digital solutions that create real, measurable business impact.",
+    "items": [
+      {
+        "id": "automation",
+        "icon": "Zap",
+        "gradient": "from-blue-500 to-cyan-500",
+        "title": "AI Automation Systems",
+        "description": "Custom workflow automation using n8n, AI APIs, and smart integrations. Eliminate manual tasks, connect your tools, and let your business run on autopilot — 24/7 with zero errors.",
+        "features": ["n8n Workflows", "AI / GPT Integrations", "API Connections", "24/7 Automation"]
+      },
+      {
+        "id": "web",
+        "icon": "Globe",
+        "gradient": "from-violet-500 to-purple-500",
+        "title": "Web Development",
+        "description": "Modern, fast, and conversion-optimized websites and landing pages. Built with Next.js and TailwindCSS for pixel-perfect performance that impresses clients and converts visitors.",
+        "features": ["Next.js / React", "TailwindCSS", "SEO Optimized", "Mobile-First Design"]
+      },
+      {
+        "id": "systems",
+        "icon": "Cpu",
+        "gradient": "from-purple-500 to-pink-500",
+        "title": "Business Process Optimization",
+        "description": "Analyze, redesign, and automate your core business processes. From CRM integrations to custom reporting dashboards — I build the reliable digital backbone your business needs to scale.",
+        "features": ["CRM Integration", "Data Pipelines", "Custom Dashboards", "Process Audit"]
+      }
+    ]
+  },
+  "portfolio": {
+    "tag": "Portfolio",
+    "title": "Selected Work",
+    "subtitle": "Real projects. Real results. Here's how I've helped businesses transform their operations with smart digital systems.",
+    "categories": {
+      "all": "All Projects",
+      "automation": "Automation",
+      "web": "Web Dev"
+    },
+    "view_details": "View Case Study",
+    "close": "Close",
+    "problem_label": "The Problem",
+    "solution_label": "The Solution",
+    "result_label": "The Result",
+    "tech_label": "Technologies Used",
+    "metrics_label": "Key Results",
+    "projects": [
+      {
+        "id": "ecommerce-automation",
+        "category": "automation",
+        "thumb": "ecommerce",
+        "title": "E-Commerce Order Automation System",
+        "short_desc": "Automated the full order fulfillment pipeline for an online retailer — saving 30+ hours every week and near-eliminating processing errors.",
+        "tags": ["n8n", "WooCommerce", "Slack", "Email"],
+        "problem": "The client's team was spending 6+ hours every day manually processing WooCommerce orders — copying data between systems, sending confirmation emails by hand, updating inventory spreadsheets, and notifying the warehouse team via WhatsApp. Errors were frequent, delays were hurting customer satisfaction scores, and the team was burning out from repetitive data entry.",
+        "solution": "I engineered a fully automated n8n workflow triggered on every new order. The system automatically sends branded HTML confirmation emails, updates inventory in real-time across all channels, notifies the warehouse via a formatted Slack message with all required shipping details, auto-generates shipping labels, and logs every order with its status to a live Google Sheets dashboard visible to the whole team.",
+        "result": "The operations team recovered 30+ hours per week — time they reinvested into customer service and growth. Order processing time dropped from over 4 minutes per order to under 10 seconds. Human error rate fell to near zero. The client grew revenue by 22% in the following 3 months, directly attributing the improvement to faster fulfillment and higher customer satisfaction.",
+        "metrics": ["30+ hrs/week saved", "98% fewer errors", "< 10 sec processing time", "+22% revenue in 3 months"]
+      },
+      {
+        "id": "restaurant-website",
+        "category": "web",
+        "thumb": "restaurant",
+        "title": "Restaurant Chain Website & Reservation System",
+        "short_desc": "Built a modern multi-location restaurant website with an integrated reservation system that grew online bookings by 40% in 60 days.",
+        "tags": ["Next.js", "TailwindCSS", "Supabase", "Stripe"],
+        "problem": "A 4-location restaurant chain was running on an outdated PHP site from 2014 — no mobile support, zero online reservation capability, and menus that required a developer to update (taking weeks per change). They were visibly losing customers to competitors with better digital experiences, and staff were overwhelmed by phone calls just for basic table bookings.",
+        "solution": "I designed and built a complete digital presence: a mobile-first Next.js website with real-time table availability per location, online pre-payment for special events and private dining, a simple CMS panel so staff could update menus and photos in minutes, and a management dashboard giving managers a live view of all reservations across all four locations from a single screen.",
+        "result": "Within 60 days of launch: online reservations increased by 40%, inbound phone call volume dropped by 60% (freeing significant staff time during service), and menu updates that previously took weeks now take minutes. The site generates 150+ reservations per month autonomously, and the client has since added a 5th location — partly enabled by the operational efficiency gained.",
+        "metrics": ["+40% online reservations", "-60% phone call volume", "150+ bookings/month", "4 locations managed centrally"]
+      },
+      {
+        "id": "lead-crm-automation",
+        "category": "automation",
+        "thumb": "crm",
+        "title": "AI-Powered Lead Generation & CRM Pipeline",
+        "short_desc": "Built an end-to-end automated lead intelligence system that tripled qualified lead processing capacity and boosted lead-to-meeting conversion by 45%.",
+        "tags": ["n8n", "HubSpot", "OpenAI", "Typeform"],
+        "problem": "A B2B services company was receiving 200+ leads per month from multiple channels — website forms, LinkedIn outreach, paid ads — but had no system to unify, qualify, or follow up with them consistently. Leads were routinely falling through the cracks. The sales team was wasting hours each week manually sorting through a mixed pile of hot and cold prospects, often reaching out too late or not at all.",
+        "solution": "I built a fully automated lead intelligence pipeline: every incoming lead is automatically captured from all channels, enriched with firmographic data via third-party APIs, and then scored by a fine-tuned OpenAI model trained on the client's ideal customer profile. High-score leads immediately receive a personalized, context-aware outreach email within minutes of submitting. Low-score leads enter a structured nurture sequence. Everything syncs to HubSpot automatically — deals, contact records, and pipeline stages.",
+        "result": "The sales team now exclusively handles pre-qualified, high-intent leads. Lead processing capacity tripled without adding a single new hire. The lead-to-meeting conversion rate increased by 45%. The team reclaimed 15 hours per week previously lost to manual sorting and data entry. Zero leads fall through the cracks — ever.",
+        "metrics": ["3× lead processing capacity", "+45% lead-to-meeting conversion", "15 hrs/week reclaimed", "0 leads dropped"]
+      },
+      {
+        "id": "dental-clinic-automation",
+        "category": "automation",
+        "thumb": "dental",
+        "title": "Dental Clinic AI Email & Appointment Automation",
+        "short_desc": "Built a 7-node AI workflow that reads every patient email, classifies request type and urgency with GPT-4o-mini, auto-schedules appointments, logs to Google Sheets, and sends 3 personalized emails — all within 2 minutes.",
+        "tags": ["n8n", "GPT-4o-mini", "Gmail", "Google Sheets"],
+        "problem": "A busy dental clinic was drowning in patient emails — manually reading each one to determine whether it was a routine cleaning inquiry or an urgent toothache emergency, then manually scheduling appointments and writing individual confirmation emails. Staff spent 3+ hours every day on email management alone. Urgent cases sometimes waited hours before receiving a response, damaging both patient trust and the clinic's professional reputation.",
+        "solution": "I built a fully automated 7-node n8n workflow triggered on every new Gmail message. GPT-4o-mini reads the email subject and body, classifies the request type (tooth extraction, root canal, cleaning, whitening, or general inquiry) and urgency level (high/medium/low), and extracts the patient's name and contact details. A custom code node calculates the optimal appointment slot based on urgency — high-urgency cases get next-morning bookings, medium get 2 days out, and routine requests get 3 days. Every patient record is automatically logged to a Google Sheets dashboard. Finally, three emails are sent automatically: an immediate read receipt, a detailed appointment confirmation with tailored preparation instructions, and an internal notification to the clinic team.",
+        "result": "The clinic eliminated 3+ hours of daily email management. Patient response time dropped from hours to under 2 minutes for every single email. High-urgency cases are flagged and booked automatically — none are ever missed. The clinic now handles 40% more patient volume with the same staff headcount, and patient satisfaction scores improved significantly due to faster and more professional communications.",
+        "metrics": ["3+ hrs/day eliminated", "< 2 min response time", "40% more patient volume handled", "0 urgent cases missed"]
+      },
+      {
+        "id": "youtube-shorts-ai",
+        "category": "automation",
+        "thumb": "youtube",
+        "title": "Fully Automated YouTube Shorts Production Pipeline",
+        "short_desc": "Built a 20+ node AI pipeline that researches trending topics, writes scripts with Claude, generates voiceovers with ElevenLabs, finds footage on Pexels, renders with Creatomate, and uploads to YouTube — with one human approval click per week.",
+        "tags": ["n8n", "Claude AI", "ElevenLabs", "Pexels", "Creatomate", "YouTube"],
+        "problem": "A content creator wanted to run two YouTube Shorts channels simultaneously (Turkish + English) but the manual production process was consuming 4-6 hours per video: researching trending topics, writing a script, recording or commissioning a voiceover, editing video footage in Premiere Pro, burning in subtitles, and uploading with optimized SEO metadata. At one video per week per channel, this was 8-12 hours of pure production overhead every week — completely unsustainable.",
+        "solution": "I built a 20+ node fully automated production pipeline: a weekly Monday scheduler triggers the workflow → Tavily AI searches for trending dark and fascinating fact topics → Claude Sonnet selects the 3 best topics and writes a 60-second hook-first narration script in the target language (TR or EN) → ElevenLabs converts the script to a natural-sounding voiceover → the audio is uploaded for public access → Claude extracts visual keywords from the script → Pexels API finds matching portrait-orientation stock footage → Creatomate renders the final Short combining audio, video, and auto-generated subtitles → the creator receives a Gmail preview with embedded APPROVE / REJECT buttons → one click resumes the workflow → approved videos upload directly to YouTube as private drafts ready for scheduling.",
+        "result": "Production time per video dropped from 4-6 hours to a 15-minute weekly review session. Both channels now run on full autopilot simultaneously. The creator produces 2 professional-quality Shorts every week with zero production overhead, and uses the reclaimed time to focus on long-form content strategy. Channel posting consistency — the single biggest factor in YouTube growth — improved dramatically.",
+        "metrics": ["4-6 hrs reduced to 15 min/video", "2 channels fully automated", "1-click human approval", "100% production on autopilot"]
+      },
+      {
+        "id": "kaya-website",
+        "category": "web",
+        "thumb": "kaya",
+        "live_url": "https://bejewelled-kataifi-6984e4.netlify.app",
+        "title": "KAYA Fencing Systems — Corporate Website",
+        "short_desc": "Built a complete corporate website for a 20-year-old Istanbul fencing manufacturer — service showcase, 21-photo project gallery, WhatsApp live chat widget, and mobile-first responsive design.",
+        "tags": ["HTML/CSS", "JavaScript", "WhatsApp API", "Responsive"],
+        "problem": "KAYA, a premium fencing and gate manufacturer with 20+ years of experience in Istanbul's Çatalca district, had zero digital presence. Potential customers couldn't find them online, browse completed projects, or request a quote without making a phone call. All lead generation depended entirely on word-of-mouth, leaving significant business on the table.",
+        "solution": "I designed and built a full corporate website from scratch: a cinematic hero section with professional photography and animated statistics, a services section showcasing Panel Fencing, Galvanized Wire Systems, and Architectural Gate Manufacturing, a full-screen project gallery displaying 21 real completed project photos, an embedded WhatsApp live chat widget for instant lead capture, a contact section with phone, WhatsApp and location links, and a fully responsive mobile-first layout optimized for all devices.",
+        "result": "KAYA now has a professional digital presence that converts visitors into leads around the clock via multiple contact channels. The 21-photo project gallery immediately builds trust with potential clients. The WhatsApp chat widget captures leads 24/7 even outside business hours. The client can now be discovered organically and referred digitally for the first time in 20 years.",
+        "metrics": ["21 real project photos", "WhatsApp 24/7 lead capture", "3 service areas showcased", "Mobile-first responsive design"]
+      },
+      {
+        "id": "blockchain-newsletter",
+        "category": "automation",
+        "thumb": "blockchain",
+        "title": "Blockchain Intelligence Brief — AI Daily Newsletter",
+        "short_desc": "Built a 25-node parallel-research pipeline powered by Claude Opus 4 that researches 5 blockchain topics simultaneously, composes a branded HTML newsletter, and delivers it to subscribers every morning at 7 AM UTC — zero manual effort.",
+        "tags": ["n8n", "Claude Opus 4", "Claude Haiku", "Tavily", "Gmail"],
+        "problem": "A blockchain technology consultancy wanted to send a daily intelligence brief to their executive team and key clients, covering AI+blockchain, enterprise adoption, cross-chain infrastructure, funding rounds, and smart contract security. The research and writing process was taking 4+ hours per edition — reading dozens of articles from CoinDesk, The Block, a16z Crypto, and others, then synthesizing them into coherent executive-level insights. The team couldn't sustain the workload alongside client projects.",
+        "solution": "I built a 25-node automated research and publishing pipeline: every morning at 7 AM UTC, five Tavily AI research streams launch simultaneously — one per topic — pulling the latest articles from curated blockchain media sources. Each stream feeds into a dedicated Claude Opus 4 agent that reads the raw results, selects the two most significant stories, and writes structured blog posts with TL;DR, What Happened, Why It Matters, and What to Watch sections. A merge node collects all five topic outputs, a code node formats the combined content, and Claude Haiku composes a complete color-coded HTML email newsletter. Gmail sends the finished brief to subscribers. An IF node verifies successful delivery — if it fails, a retry mechanism triggers automatically, and all errors are logged to Google Sheets with timestamps and error details.",
+        "result": "The daily brief now publishes every morning at exactly 7 AM UTC with zero manual effort. Research-to-delivery processing time dropped from 4+ hours to 12 minutes of automated work. Each edition covers 5 topics with up to 10 total stories, delivering consistent executive-level intelligence regardless of team availability. The consultancy's clients began citing the brief in their own strategy meetings, directly generating new project inquiries.",
+        "metrics": ["4+ hrs → 12 min/edition", "5 topics, 10 stories daily", "7 AM UTC, 365 days/year", "0 manual research effort"]
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Let's Build Something Together",
+    "subtitle": "Have a project in mind? Tell me about it. I respond to every inquiry within 24 hours.",
+    "form": {
+      "name_label": "Your Name",
+      "name_placeholder": "John Smith",
+      "email_label": "Email Address",
+      "email_placeholder": "john@company.com",
+      "message_label": "Tell me about your project",
+      "message_placeholder": "I need help automating my order process / building a new website / integrating AI into my workflow...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success_title": "Message Received!",
+      "success_body": "Thanks for reaching out. I'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please email me directly."
+    },
+    "direct_label": "Or reach out directly",
+    "availability": "Currently available for new projects",
+    "items": [
+      {
+        "icon": "Mail",
+        "label": "Email",
+        "value": "emir@example.com",
+        "href": "mailto:emir@example.com"
+      },
+      {
+        "icon": "MessageSquare",
+        "label": "WhatsApp",
+        "value": "+90 544 153 54 88",
+        "href": "https://wa.me/905441535488"
+      },
+      {
+        "icon": "Linkedin",
+        "label": "LinkedIn",
+        "value": "/in/emirkaya",
+        "href": "https://linkedin.com/in/emirkaya"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Building systems that scale.",
+    "links_label": "Quick Links",
+    "rights": "All rights reserved.",
+    "built_with": "Built with Next.js & TailwindCSS"
+  }
+}

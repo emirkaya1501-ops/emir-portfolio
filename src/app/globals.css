@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────────
+   @property registrations — required for CSS-animated custom props
+   (Chrome 85+, Firefox 128+, Safari 16.4+)
+───────────────────────────────────────────────────────────────── */
+@property --beam-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+/* ─── CORPORATE DESIGN TOKENS ─────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg:          #030B18;   /* darkest navy */
+  --bg-surface:  #071525;   /* card / section */
+  --bg-elevated: #0D2040;   /* hover */
+
+  /* Borders */
+  --border:      rgba(255,255,255,0.07);
+  --border-blue: rgba(37,99,235,0.22);
+  --border-hi:   rgba(255,255,255,0.13);
+
+  /* Text */
+  --text:   #E8F4FF;        /* cool white */
+  --text-2: #4E6E94;        /* muted steel */
+  --text-3: #1F3654;        /* tertiary */
+
+  /* Brand Blues */
+  --blue-700: #1D4ED8;
+  --blue-600: #2563EB;
+  --blue-500: #3B82F6;
+  --blue-400: #60A5FA;
+  --sky-400:  #38BDF8;
+  --sky-300:  #7DD3FC;
+
+  /* Glows */
+  --glow-blue:   rgba(37,99,235,0.18);
+  --glow-sky:    rgba(56,189,248,0.12);
+}
+
+/* ─── BASE ─────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter, system-ui, sans-serif);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(37,99,235,0.4);
+  color: #fff;
+}
+
+::-webkit-scrollbar        { width: 5px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: rgba(37,99,235,0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(37,99,235,0.5); }
+
+*:focus-visible {
+  outline: 2px solid rgba(37,99,235,0.7);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── GRADIENT TEXT ────────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--blue-400) 0%, var(--sky-300) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─── BORDER BEAM ──────────────────────────────────────────────── */
+/*  Uses conic-gradient + CSS @property to rotate the beam        */
+.border-beam {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: var(--beam-width, 1.5px) solid transparent;
+  background:
+    linear-gradient(var(--bg-surface, #071525), var(--bg-surface, #071525)) padding-box,
+    conic-gradient(
+      from var(--beam-angle, 0deg),
+      transparent       0%,
+      var(--beam-from, #2563EB) 15%,
+      var(--beam-to,   #38BDF8) 25%,
+      transparent       40%
+    ) border-box;
+  animation: border-beam-rotate var(--beam-dur, 6s) linear infinite var(--beam-delay, 0s);
+}
+
+/* ─── TEXT SHIMMER ─────────────────────────────────────────────── */
+.text-shimmer {
+  display: inline-block;
+  background: linear-gradient(
+    110deg,
+    var(--blue-400) 0%,
+    var(--sky-300)  30%,
+    var(--blue-400) 60%,
+    var(--sky-300)  100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-sweep var(--shimmer-dur, 2.5s) linear infinite;
+}
+
+/* ─── SHINY BUTTON sweep overlay ──────────────────────────────── */
+.shiny-button::after,
+.shiny-button-outline::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 30%,
+    rgba(255,255,255,0.22) 50%,
+    transparent 70%
+  );
+  transform: translateX(-200%) skewX(-20deg);
+  animation: shiny-sweep 3.5s linear infinite;
+  pointer-events: none;
+}
+
+/* ─── MESH BACKGROUND ──────────────────────────────────────────── */
+.mesh-bg {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(37,99,235,0.15) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 40% at 80% 80%, rgba(56,189,248,0.07) 0%, transparent 50%);
+}
+
+/* ─── SECTION DIVIDER ──────────────────────────────────────────── */
+.section-divider {
+  border-top: 1px solid var(--border);
+}
+
+/* ─── CARD GLOW on hover ───────────────────────────────────────── */
+.card-glow {
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+.card-glow:hover {
+  box-shadow: 0 0 28px 0 rgba(37,99,235,0.12), 0 0 0 1px rgba(37,99,235,0.25);
+  border-color: rgba(37,99,235,0.35) !important;
+}
+
+/* ─── MODAL body lock ──────────────────────────────────────────── */
+body.modal-open { overflow: hidden; }
