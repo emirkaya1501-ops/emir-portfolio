@@ -70,10 +70,8 @@ function ServiceCard({ id, icon, title, description, features, delay = 0 }: Serv
   return (
     <AnimatedSection delay={delay}>
       <motion.div
-        whileHover={{ y: -8, scale: 1.012, transition: { duration: 0.22 } }}
+        whileHover={{ y: -8, scale: 1.012, boxShadow: `0 0 40px 0 ${g.glow}, 0 0 0 1px ${g.glow}`, transition: { duration: 0.22 } }}
         className={`group relative h-full flex flex-col p-7 rounded-2xl ${g.cardBg} border border-white/[0.06] overflow-hidden`}
-        style={{ boxShadow: `0 0 0 0 ${g.glow}`, transition: "box-shadow 0.3s" }}
-        whileHover={{ y: -8, scale: 1.012, boxShadow: `0 0 40px 0 ${g.glow}, 0 0 0 1px ${g.glow}`, transition: { duration: 0.22 } } as any}
       >
         {/* Animated border beam — unique colour per card */}
         <BorderBeam colorFrom={g.beam.from} colorTo={g.beam.to} duration={7} size={200} borderWidth={1.5} />
