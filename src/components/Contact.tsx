@@ -5,12 +5,11 @@ import { useLanguage } from "@/context/LanguageContext";
 import AnimatedSection from "./ui/AnimatedSection";
 import { BorderBeam } from "./ui/BorderBeam";
 import { ShinyButton } from "./ui/ShinyButton";
-import { Mail, MessageSquare, Linkedin, CheckCircle2, Loader2, Circle } from "lucide-react";
+import { Mail, Linkedin, CheckCircle2, Loader2, Circle } from "lucide-react";
 
 const ICON_MAP: Record<string, React.ReactNode> = {
-  Mail:          <Mail          size={16} />,
-  MessageSquare: <MessageSquare size={16} />,
-  Linkedin:      <Linkedin      size={16} />,
+  Mail:     <Mail     size={16} />,
+  Linkedin: <Linkedin size={16} />,
 };
 
 const INPUT =
@@ -180,9 +179,9 @@ export default function Contact() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.34}>
-              <ShinyButton href="mailto:emir@example.com" className="w-full justify-center">
+              <ShinyButton href="mailto:emirkaya1501@gmail.com" className="w-full justify-center">
                 <Mail size={15} />
-                emir@example.com
+                emirkaya1501@gmail.com
               </ShinyButton>
             </AnimatedSection>
           </div>
