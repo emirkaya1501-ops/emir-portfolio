@@ -12,9 +12,11 @@ import { Meteors } from "./ui/Meteors";
 function GlowOrbs() {
   return (
     <>
-      <div className="absolute top-[8%] left-[12%] w-[500px] h-[500px] bg-blue-700/[0.1] rounded-full blur-[140px] pointer-events-none" />
-      <div className="absolute top-[25%] right-[8%]  w-[380px] h-[380px] bg-blue-500/[0.07] rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute bottom-[8%] left-[40%] w-[320px] h-[320px] bg-sky-600/[0.06]  rounded-full blur-[90px]  pointer-events-none" />
+      <div className="absolute top-[8%]  left-[12%]  w-[520px] h-[520px] bg-blue-700/[0.12]   rounded-full blur-[140px] pointer-events-none animate-float" />
+      <div className="absolute top-[25%] right-[8%]  w-[400px] h-[400px] bg-violet-600/[0.09] rounded-full blur-[110px] pointer-events-none animate-float" style={{ animationDelay: "2s" }} />
+      <div className="absolute bottom-[8%] left-[40%] w-[340px] h-[340px] bg-sky-500/[0.07]   rounded-full blur-[90px]  pointer-events-none animate-float" style={{ animationDelay: "4s" }} />
+      <div className="absolute top-[55%] left-[5%]   w-[250px] h-[250px] bg-purple-700/[0.06]  rounded-full blur-[80px]  pointer-events-none animate-float" style={{ animationDelay: "1s" }} />
+      <div className="absolute top-[10%] right-[25%] w-[200px] h-[200px] bg-cyan-500/[0.05]   rounded-full blur-[70px]  pointer-events-none animate-float" style={{ animationDelay: "3s" }} />
     </>
   );
 }
@@ -36,8 +38,8 @@ function HeroStat({ value, label }: { value: string; label: string }) {
 /* ── Trust badge ────────────────────────────────────────────────── */
 function TrustBadge({ text }: { text: string }) {
   return (
-    <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/30 border border-blue-700/30 text-blue-400 text-[13px] font-medium">
-      <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse-slow" />
+    <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-blue-900/40 to-violet-900/40 border border-blue-500/30 text-blue-300 text-[13px] font-medium backdrop-blur-sm">
+      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse-slow shadow-[0_0_8px_2px_rgba(52,211,153,0.5)]" />
       {text}
     </span>
   );
@@ -72,7 +74,7 @@ export default function Hero() {
       <GlowOrbs />
 
       {/* Meteors */}
-      <Meteors number={10} />
+      <Meteors number={18} />
 
       {/* Gradient top fade */}
       <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-[#030B18] to-transparent pointer-events-none" />

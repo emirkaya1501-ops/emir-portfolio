@@ -166,16 +166,16 @@ export default function ProjectModal({ project, onClose }: Props) {
                   href={(project as any).live_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-white/[0.05] hover:bg-white/[0.09] border border-white/[0.1] text-white font-semibold text-[15px] transition-all duration-200"
+                  className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-800/60 to-teal-800/60 hover:from-emerald-700/80 hover:to-teal-700/80 border border-emerald-500/40 text-emerald-300 font-semibold text-[15px] transition-all duration-200 shadow-lg shadow-emerald-900/20"
                 >
                   <ExternalLink size={15} />
-                  Canlı Siteyi Gör
+                  Canlı Siteyi Aç
                 </a>
               )}
               <a
                 href="#contact"
                 onClick={onClose}
-                className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-700 to-blue-500 hover:from-blue-600 hover:to-blue-400 text-white font-semibold text-[15px] transition-all duration-200 shadow-lg shadow-blue-700/20"
+                className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-700 via-violet-600 to-blue-500 hover:from-blue-600 hover:via-violet-500 hover:to-blue-400 text-white font-semibold text-[15px] transition-all duration-200 shadow-lg shadow-blue-700/25"
               >
                 {t("nav.cta")} →
               </a>

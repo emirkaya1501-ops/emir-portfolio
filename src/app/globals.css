@@ -155,5 +155,26 @@ body {
   border-color: rgba(37,99,235,0.35) !important;
 }
 
+/* ─── PORTFOLIO — coloured stat badge ─────────────────────────── */
+.stat-blue   { background: rgba(37,99,235,0.12); border-color: rgba(37,99,235,0.22); color: #60A5FA; }
+.stat-violet { background: rgba(139,92,246,0.12); border-color: rgba(139,92,246,0.22); color: #C084FC; }
+
+/* ─── GLOW GRADIENT TEXT variants ─────────────────────────────── */
+.gradient-text-violet {
+  background: linear-gradient(135deg, #C084FC 0%, #E879F9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #38BDF8 0%, #7DD3FC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─── SCROLLBAR — violet accent ────────────────────────────────── */
+::-webkit-scrollbar-thumb:hover { background: rgba(139,92,246,0.5); }
+
 /* ─── MODAL body lock ──────────────────────────────────────────── */
 body.modal-open { overflow: hidden; }
