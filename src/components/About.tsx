@@ -6,9 +6,9 @@ import { NumberTicker } from "./ui/NumberTicker";
 import { CheckCircle2, Cpu, Globe, Zap, ArrowRight } from "lucide-react";
 
 const TOOL_ICONS = [
-  { icon: Zap,   label: "n8n",    color: "text-blue-400",   bg: "bg-blue-700/15 border-blue-700/20" },
-  { icon: Cpu,   label: "OpenAI", color: "text-sky-400",    bg: "bg-sky-700/15  border-sky-700/20"  },
-  { icon: Globe, label: "Web",    color: "text-blue-300",   bg: "bg-blue-800/15 border-blue-800/20" },
+  { icon: Zap,   label: "n8n",    color: "text-orange-400",  bg: "bg-orange-900/20 border-orange-600/25" },
+  { icon: Cpu,   label: "OpenAI", color: "text-emerald-400", bg: "bg-emerald-900/20 border-emerald-600/25" },
+  { icon: Globe, label: "Web",    color: "text-violet-400",  bg: "bg-violet-900/20 border-violet-600/25" },
 ] as const;
 
 /* Parse "50+" → { num: 50, suffix: "+" }   "10b+" → show as-is */
@@ -18,15 +18,21 @@ function parseStat(raw: string): { num: number | null; suffix: string } {
   return { num: parseFloat(m[1]), suffix: m[2] };
 }
 
-function StatCard({ value, label }: { value: string; label: string }) {
+const STAT_COLORS = [
+  { text: "text-blue-400",    bg: "bg-blue-900/15",    border: "border-blue-700/20",    glow: "shadow-blue-900/20" },
+  { text: "text-violet-400",  bg: "bg-violet-900/15",  border: "border-violet-700/20",  glow: "shadow-violet-900/20" },
+  { text: "text-emerald-400", bg: "bg-emerald-900/15", border: "border-emerald-700/20", glow: "shadow-emerald-900/20" },
+  { text: "text-orange-400",  bg: "bg-orange-900/15",  border: "border-orange-700/20",  glow: "shadow-orange-900/20" },
+];
+
+function StatCard({ value, label, idx }: { value: string; label: string; idx: number }) {
   const { num, suffix } = parseStat(value);
+  const c = STAT_COLORS[idx % STAT_COLORS.length];
 
   return (
-    <div className="flex flex-col p-5 rounded-2xl bg-[#071525] border border-white/[0.07] card-glow text-center">
-      <span className="text-3xl sm:text-4xl font-extrabold gradient-text leading-none mb-2">
-        {num !== null ? (
-          <NumberTicker value={num} delay={0.2} />
-        ) : null}
+    <div className={`flex flex-col p-5 rounded-2xl ${c.bg} border ${c.border} text-center shadow-lg ${c.glow}`}>
+      <span className={`text-3xl sm:text-4xl font-extrabold leading-none mb-2 ${c.text}`}>
+        {num !== null ? <NumberTicker value={num} delay={0.2} /> : null}
         {suffix}
       </span>
       <span className="text-xs text-[#4E6E94] leading-snug uppercase tracking-wider font-medium">
@@ -58,7 +64,13 @@ const CHECKS_TR = [
   "Teslimden sonra surekli destek",
 ];
 
-const TECH_TAGS = ["n8n", "Next.js", "OpenAI", "TypeScript", "TailwindCSS"];
+const TECH_TAGS = [
+  { label: "n8n",         color: "bg-orange-900/20 text-orange-400 border-orange-700/30" },
+  { label: "Next.js",     color: "bg-slate-800/40 text-slate-300 border-slate-600/30" },
+  { label: "OpenAI",      color: "bg-emerald-900/20 text-emerald-400 border-emerald-700/30" },
+  { label: "TypeScript",  color: "bg-blue-900/20 text-blue-400 border-blue-700/30" },
+  { label: "TailwindCSS", color: "bg-cyan-900/20 text-cyan-400 border-cyan-700/30" },
+];
 
 export default function About() {
   const { t, messages, lang } = useLanguage();
@@ -118,16 +130,16 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4">
               {messages.about.stats.map((s, i) => (
                 <AnimatedSection key={i} delay={0.1 + i * 0.07}>
-                  <StatCard value={s.value} label={s.label} />
+                  <StatCard value={s.value} label={s.label} idx={i} />
                 </AnimatedSection>
               ))}
             </div>
 
             <AnimatedSection delay={0.38}>
               <div className="rounded-2xl bg-[#071525] border border-white/[0.07] overflow-hidden card-glow">
-                <div className="h-20 bg-gradient-to-r from-blue-900/50 via-blue-700/30 to-sky-700/20" />
+                <div className="h-20 bg-gradient-to-r from-blue-900/60 via-violet-800/40 to-fuchsia-900/30" />
                 <div className="px-6 pb-6 -mt-8">
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-700 to-blue-500 border-2 border-[#030B18] flex items-center justify-center mb-3 text-lg font-bold text-white shadow-lg shadow-blue-700/25">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-violet-600 to-blue-500 border-2 border-[#030B18] flex items-center justify-center mb-3 text-lg font-bold text-white shadow-lg shadow-violet-700/30">
                     EK
                   </div>
                   <h3 className="text-white font-semibold text-base mb-0.5">Emir Kaya</h3>
@@ -136,8 +148,8 @@ export default function About() {
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {TECH_TAGS.map((tag) => (
-                      <span key={tag} className="text-[10px] px-2.5 py-1 rounded-full bg-blue-900/20 text-blue-400 font-medium border border-blue-800/30">
-                        {tag}
+                      <span key={tag.label} className={`text-[10px] px-2.5 py-1 rounded-full font-medium border ${tag.color}`}>
+                        {tag.label}
                       </span>
                     ))}
                   </div>

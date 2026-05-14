@@ -281,14 +281,8 @@
       {
         "icon": "Mail",
         "label": "Email",
-        "value": "emir@example.com",
-        "href": "mailto:emir@example.com"
-      },
-      {
-        "icon": "MessageSquare",
-        "label": "WhatsApp",
-        "value": "+90 544 153 54 88",
-        "href": "https://wa.me/905441535488"
+        "value": "emirkaya1501@gmail.com",
+        "href": "mailto:emirkaya1501@gmail.com"
       },
       {
         "icon": "Linkedin",
