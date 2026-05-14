@@ -159,6 +159,102 @@
         "solution": "I built a 25-node automated research and publishing pipeline: every morning at 7 AM UTC, five Tavily AI research streams launch simultaneously — one per topic — pulling the latest articles from curated blockchain media sources. Each stream feeds into a dedicated Claude Opus 4 agent that reads the raw results, selects the two most significant stories, and writes structured blog posts with TL;DR, What Happened, Why It Matters, and What to Watch sections. A merge node collects all five topic outputs, a code node formats the combined content, and Claude Haiku composes a complete color-coded HTML email newsletter. Gmail sends the finished brief to subscribers. An IF node verifies successful delivery — if it fails, a retry mechanism triggers automatically, and all errors are logged to Google Sheets with timestamps and error details.",
         "result": "The daily brief now publishes every morning at exactly 7 AM UTC with zero manual effort. Research-to-delivery processing time dropped from 4+ hours to 12 minutes of automated work. Each edition covers 5 topics with up to 10 total stories, delivering consistent executive-level intelligence regardless of team availability. The consultancy's clients began citing the brief in their own strategy meetings, directly generating new project inquiries.",
         "metrics": ["4+ hrs → 12 min/edition", "5 topics, 10 stories daily", "7 AM UTC, 365 days/year", "0 manual research effort"]
+      },
+      {
+        "id": "qr-menu",
+        "category": "web",
+        "thumb": "restaurant",
+        "title": "Digital QR Menu System — Restaurant Demo",
+        "short_desc": "Built a complete digital restaurant experience with QR-accessible menus, a branded homepage, and scannable per-table QR codes — eliminating paper menus entirely.",
+        "tags": ["HTML/CSS", "JavaScript", "QR Code", "Responsive"],
+        "problem": "A restaurant needed to eliminate paper menus, reduce the staff overhead of handing physical menus to each table, and give customers an instant digital browsing experience without requiring an app download.",
+        "solution": "I built a complete multi-page digital menu system: a branded restaurant homepage, a full digital menu with categories and item details, and a QR code generation page that produces per-table scannable codes. Customers scan the code at their table and instantly access the full menu on their smartphone — no app required.",
+        "result": "The restaurant completely eliminated paper menus, reduced order errors caused by illegible handwriting, and gave customers a modern fast browsing experience. The system is live on Netlify and can be deployed for any restaurant within hours.",
+        "metrics": ["100% paperless menu", "QR code per table", "Zero app downloads required", "Netlify-deployed demo"]
+      },
+      {
+        "id": "azure-yacht",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "AZURE — Luxury Yacht Charter Website",
+        "short_desc": "Designed and built a premium luxury yacht charter website with cinematic GSAP scroll animations, a custom cursor, smooth Lenis scroll, and immersive full-screen sections.",
+        "tags": ["HTML/CSS", "GSAP", "ScrollTrigger", "Lenis"],
+        "problem": "A luxury yacht charter company needed a website that matched the premium, aspirational nature of their brand — but most web agencies delivered generic templates that felt nothing like the high-end experience they were selling.",
+        "solution": "I built a fully custom, performance-optimized website with a custom animated cursor, cinematic scroll-driven animations using GSAP ScrollTrigger, smooth page scrolling via Lenis, a hero intro sequence, fleet showcase sections, and a booking inquiry form — all crafted to communicate a genuinely luxury brand positioning.",
+        "result": "The website delivers an immersive digital experience that matches the brand's premium positioning. The custom cursor, fluid animations, and cinematic transitions ensure that prospects feel the quality before they ever make contact.",
+        "metrics": ["Custom GSAP animations", "60fps smooth scroll", "Cinematic intro sequence", "Premium brand experience"]
+      },
+      {
+        "id": "online-ordering",
+        "category": "web",
+        "thumb": "restaurant",
+        "title": "Restaurant Online Ordering & QR System Demo",
+        "short_desc": "Built a fully functional restaurant online ordering demo — digital menu, cart functionality, per-table QR code generation, and a complete order flow, all without a native app.",
+        "tags": ["HTML/CSS", "JavaScript", "QR Code", "Cart System"],
+        "problem": "Restaurants needed a modern, app-free way to take dine-in orders digitally — without the complexity and cost of full POS integrations or requiring customers to download yet another app.",
+        "solution": "I built a complete restaurant ordering demo: customers scan a QR code at their table, browse the full digital menu, add items to a cart, and place their order — all from their smartphone browser with no app required. QR codes are generated and printable per table directly from the interface.",
+        "result": "The demo proved a viable path to a fully paperless, app-free ordering workflow. It showcases the concept clearly to restaurant owners and has been used as a client sales tool to demonstrate the product before full development.",
+        "metrics": ["Full cart system", "Per-table QR codes", "Zero app downloads", "Client-ready demo"]
+      },
+      {
+        "id": "london-saat",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "London Saat Silivri — Watch Store Website",
+        "short_desc": "Built a premium watch retail website for a Silivri-based watch store — product showcase, category navigation, WhatsApp quick-contact, and a mobile-first design that converts browsers into buyers.",
+        "tags": ["HTML/CSS", "JavaScript", "E-Commerce", "WhatsApp API"],
+        "problem": "A watch retailer in Silivri was operating entirely through social media DMs and phone calls — with no product catalog online, no way to display their full inventory, and no professional digital presence to build trust with new customers who discovered them.",
+        "solution": "I designed and built a clean, premium e-commerce showcase: product category pages with filtering, individual product cards with pricing and specifications, a featured collection section, WhatsApp quick-contact integration for instant customer queries, and a fully mobile-responsive layout using a gold and charcoal palette that fits the watch retail aesthetic.",
+        "result": "The store gained a professional 24/7 digital storefront that showcases their full catalog, builds instant customer trust, and drives direct WhatsApp inquiries — converting passive browsers into active buyers without any listing platform commissions.",
+        "metrics": ["Full product catalog", "WhatsApp direct contact", "Mobile-first design", "24/7 showcase"]
+      },
+      {
+        "id": "gulen-sultan",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "Gülen Sultan — Luxury Blue Cruise Charter Website",
+        "short_desc": "Built a premium charter website for the 24m Gülen Sultan gulet — real yacht photography, cabin showcase, route information for Marmaris–Bozburun, and a direct charter inquiry form.",
+        "tags": ["Next.js", "TailwindCSS", "Framer Motion", "Responsive"],
+        "problem": "The Gülen Sultan, a 24-meter luxury gulet operating between Marmaris and Bozburun, had no dedicated digital presence — potential charter clients had no way to discover the yacht, view cabin photos, or understand the experience before making contact.",
+        "solution": "I designed and built a full luxury charter website in Next.js: a full-screen hero with real yacht photography, cabin and amenity showcase sections, Marmaris–Bozburun route and itinerary information, a curated photo gallery, and a direct charter inquiry form — all with a premium gold/navy color palette and smooth animations that match the brand's luxury positioning.",
+        "result": "The yacht now has a standalone digital identity that converts discovery into charter inquiries around the clock. The photography-led design immediately communicates the premium experience and separates the Gülen Sultan from competitors relying solely on aggregator listing sites.",
+        "metrics": ["Full cabin showcase", "Real yacht photography", "Charter inquiry form", "Premium gold/navy design"]
+      },
+      {
+        "id": "pineloft",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "Pineloft Selimiye — Boutique Villa Rental Website",
+        "short_desc": "Built a serene, nature-inspired website for a boutique villa rental in Selimiye bay — property showcase, amenities, local area guide, and a direct booking inquiry form.",
+        "tags": ["HTML/CSS", "JavaScript", "Boutique Hotel", "Responsive"],
+        "problem": "A boutique villa rental in the tranquil Selimiye bay had no independent online presence — relying entirely on generic listing sites that charged commissions and prevented them from telling their property's unique story or building a direct relationship with guests.",
+        "solution": "I designed a calm, nature-inspired website using an earthy olive/cream/terracotta palette that reflects the property's natural setting. Sections include an atmospheric hero, villa features and amenities, local Selimiye highlights, guest testimonials, and a direct booking inquiry form that captures leads without any listing platform involvement.",
+        "result": "The property now has its own digital identity that communicates its unique peaceful character — generating direct inquiries, bypassing listing commissions, and building a returning guest base through a more personal booking experience.",
+        "metrics": ["Direct booking inquiries", "Property & amenity showcase", "Local area guide", "Commission-free bookings"]
+      },
+      {
+        "id": "beauty-chatbot",
+        "category": "web",
+        "thumb": "dental",
+        "title": "Beauty Center AI Chatbot Demo",
+        "short_desc": "Built a live AI chatbot demo for a two-branch beauty salon — answers service, pricing, and booking questions in natural Turkish, with a typing animation and a branded interface.",
+        "tags": ["HTML/CSS", "JavaScript", "AI Chatbot", "Demo"],
+        "problem": "Beauty salons receive dozens of repetitive customer inquiries every day — pricing for specific treatments, branch contact details, working hours, appointment availability — all handled manually, taking staff away from actual in-person client service.",
+        "solution": "I built a fully functional chatbot demo for a two-branch salon (Silivri + Beylikdüzü): the chatbot handles questions about 6 services with pricing and duration, appointment booking guidance, branch contact info, and opening hours — all with natural Turkish language responses, a typing indicator, and a clean branded interface.",
+        "result": "The demo shows beauty salon owners exactly how they could automate the majority of repetitive incoming inquiries — freeing staff to focus on service delivery while maintaining a round-the-clock digital presence that responds instantly.",
+        "metrics": ["6 services handled", "Natural language responses", "2 branches supported", "24/7 availability"]
+      },
+      {
+        "id": "finans-takip",
+        "category": "web",
+        "thumb": "crm",
+        "title": "Personal Finance Tracking App",
+        "short_desc": "Built a Vite-powered personal finance tracker with income and expense management, category breakdowns, and a live summary dashboard — fully local, zero backend.",
+        "tags": ["Vite", "JavaScript", "Finance", "Dashboard"],
+        "problem": "Tracking personal finances across multiple spending categories is tedious with spreadsheets — entries are slow, there's no visual summary, and most budgeting apps are either too complex or require cloud account registration with privacy tradeoffs.",
+        "solution": "I built a clean, local-first finance tracking application using Vite: users add income and expense transactions with categories and amounts, the dashboard automatically calculates running totals and category breakdowns, and all data is stored locally in the browser — no account required, no data ever leaves the device.",
+        "result": "A fast, private, zero-friction finance tracker that gives users a clear picture of where their money goes without any signup or cloud dependency — ideal for users who prioritize privacy and simplicity over feature bloat.",
+        "metrics": ["Income & expense tracking", "Category breakdowns", "Live summary dashboard", "100% local & private"]
       }
     ]
   },

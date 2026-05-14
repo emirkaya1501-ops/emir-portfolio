@@ -249,6 +249,102 @@
           "7:00 UTC 365 gun boyunca",
           "0 manuel arastirma"
         ]
+      },
+      {
+        "id": "qr-menu",
+        "category": "web",
+        "thumb": "restaurant",
+        "title": "Dijital QR Menü Sistemi — Restoran Demosu",
+        "short_desc": "QR kodlu erişimli dijital menü, markalı anasayfa ve masa başına ayrı QR kodu üretimi ile kağıt menüleri tamamen ortadan kaldıran eksiksiz restoran deneyimi geliştirdim.",
+        "tags": ["HTML/CSS", "JavaScript", "QR Kod", "Responsive"],
+        "problem": "Bir restoran kağıt menüleri ortadan kaldırmak, her masaya fiziksel menü götürme yükünü azaltmak ve müşterilere uygulama indirmeden anında dijital tarama deneyimi sunmak istiyordu.",
+        "solution": "Çok sayfalı eksiksiz bir dijital menü sistemi geliştirdim: markalı restoran anasayfası, kategoriler ve ürün detaylarıyla tam dijital menü ve masa başına ayrı QR kodu üreten QR sayfası. Müşteriler masadaki kodu tarayıp akıllı telefonlarından menüye anında erişiyor — uygulama gerekmiyor.",
+        "result": "Restoran kağıt menüleri tamamen ortadan kaldırdı, el yazısından kaynaklanan sipariş hatalarını azalttı ve müşterilere modern bir tarama deneyimi sundu. Sistem Netlify'da canlı olup herhangi bir restoran için saatler içinde devreye alınabilir.",
+        "metrics": ["Kağıtsız menü", "Masa başına QR kod", "Uygulama indirme yok", "Netlify canlı demo"]
+      },
+      {
+        "id": "azure-yacht",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "AZURE — Lüks Yat Kiralama Web Sitesi",
+        "short_desc": "Sinematik GSAP kaydırma animasyonları, özel imleç, Lenis yumuşak kaydırma ve tam ekran bölümlerle premium lüks yat kiralama web sitesi tasarlayıp geliştirdim.",
+        "tags": ["HTML/CSS", "GSAP", "ScrollTrigger", "Lenis"],
+        "problem": "Lüks yat kiralama şirketi, markalarının premium konumlanmasıyla örtüşen bir web sitesi istiyordu; ancak çoğu ajans sattıkları deneyimle hiçbir şekilde örtüşmeyen jenerik şablonlar teslim ediyordu.",
+        "solution": "Özel animasyonlu imleç, GSAP ScrollTrigger ile sinematik kaydırma animasyonları, Lenis ile akıcı sayfa geçişleri, hero giriş sekansı, filo vitrin bölümleri ve rezervasyon formuyla tamamen özel, performans odaklı bir web sitesi geliştirdim.",
+        "result": "Web sitesi, markanın premium konumlanmasıyla örtüşen gerçek bir lüks dijital deneyim sunuyor. Özel imleç, akıcı animasyonlar ve sinematik geçişler, ziyaretçilerin iletişime geçmeden önce kaliteyi hissetmesini sağlıyor.",
+        "metrics": ["Özel GSAP animasyonları", "60fps yumuşak kaydırma", "Sinematik giriş sekansı", "Premium marka deneyimi"]
+      },
+      {
+        "id": "online-ordering",
+        "category": "web",
+        "thumb": "restaurant",
+        "title": "Restoran Online Sipariş & QR Sistemi Demosu",
+        "short_desc": "Dijital menü, sepet sistemi, masa başına QR kod üretimi ve eksiksiz sipariş akışıyla — uygulama gerektirmeden — tam işlevsel restoran online sipariş demosu geliştirdim.",
+        "tags": ["HTML/CSS", "JavaScript", "QR Kod", "Sepet Sistemi"],
+        "problem": "Restoranlar, POS entegrasyonlarının karmaşıklığı ve maliyeti olmadan ve müşterilerin uygulama indirmesi gerekmeksizin, masada dijital sipariş almanın modern ve uygulamasız bir yoluna ihtiyaç duyuyordu.",
+        "solution": "Eksiksiz bir restoran sipariş demosu geliştirdim: müşteriler masadaki QR kodu tarayıp tam dijital menüye göz atıyor, sepete ürün ekliyor ve akıllı telefon tarayıcısından sipariş veriyor — uygulama yok. QR kodlar arayüzden masa başına üretilip yazdırılabiliyor.",
+        "result": "Demo, tamamen kağıtsız ve uygulamasız bir sipariş iş akışının uygulanabilir yolunu kanıtladı. Restoran sahiplerine tam geliştirme öncesi konsepti net bir şekilde göstermek için satış aracı olarak kullanılıyor.",
+        "metrics": ["Tam sepet sistemi", "Masa başına QR kod", "Uygulama indirme yok", "Müşteriye hazır demo"]
+      },
+      {
+        "id": "london-saat",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "London Saat Silivri — Saat Mağazası Web Sitesi",
+        "short_desc": "Silivri'deki saat perakendecisi için ürün vitrini, kategori navigasyonu, WhatsApp hızlı iletişim ve mobil öncelikli tasarımla premium saat mağazası web sitesi geliştirdim.",
+        "tags": ["HTML/CSS", "JavaScript", "E-Ticaret", "WhatsApp API"],
+        "problem": "Silivri'deki bir saat perakendecisi tamamen sosyal medya DM'leri ve telefon aramalarıyla çalışıyordu — ürün kataloğu çevrimiçi değildi, tam envanteri sergileyecek alan yoktu ve yeni müşterilerde güven oluşturacak profesyonel dijital bir varlık bulunmuyordu.",
+        "solution": "Temiz ve premium bir e-ticaret vitrini tasarlayıp geliştirdim: filtrelemeli ürün kategori sayfaları, fiyat ve özelliklerle bireysel ürün kartları, öne çıkan koleksiyon bölümü, anlık müşteri sorguları için WhatsApp hızlı iletişim entegrasyonu ve saat perakendecisi estetiğine uyan altın ve antrasit paletiyle tam mobil responsive tasarım.",
+        "result": "Mağaza, tam kataloğu 7/24 sergileyen, anında müşteri güveni oluşturan ve doğrudan WhatsApp sorguları üreten profesyonel bir dijital vitrine kavuştu — pasif tarayıcıları aktif alıcılara herhangi bir platform komisyonu ödemeden dönüştürüyor.",
+        "metrics": ["Tam ürün kataloğu", "WhatsApp direkt iletişim", "Mobil öncelikli tasarım", "7/24 vitrin"]
+      },
+      {
+        "id": "gulen-sultan",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "Gülen Sultan — Lüks Mavi Yolculuk Web Sitesi",
+        "short_desc": "24m Gülen Sultan gületi için gerçek yat fotoğrafları, kabin vitrini, Marmaris–Bozburun rota bilgileri ve doğrudan charter sorgulama formuyla premium charter web sitesi geliştirdim.",
+        "tags": ["Next.js", "TailwindCSS", "Framer Motion", "Responsive"],
+        "problem": "Marmaris ile Bozburun arasında faaliyet gösteren 24 metrelik lüks gulet Gülen Sultan'ın kendine ait dijital bir varlığı yoktu — potansiyel charter müşterileri yatı bulamıyor, kabin fotoğraflarına bakamıyor ya da iletişime geçmeden deneyimi anlayamıyordu.",
+        "solution": "Next.js ile eksiksiz bir lüks charter web sitesi tasarlayıp geliştirdim: gerçek yat fotoğraflı tam ekran hero, kabin ve donanım vitrin bölümleri, Marmaris–Bozburun rota ve güzergah bilgileri, seçilmiş fotoğraf galerisi ve doğrudan charter sorgulama formu — tümü markanın lüks konumlanmasıyla örtüşen premium altın/lacivert paletiyle.",
+        "result": "Yat artık 7/24 keşfedenleri charter sorgularına dönüştüren bağımsız bir dijital kimliğe sahip. Fotoğraf odaklı tasarım premium deneyimi anında aktarıyor ve Gülen Sultan'ı yalnızca listeleme sitelerine güvenen rakiplerden ayırıyor.",
+        "metrics": ["Tam kabin vitrini", "Gerçek yat fotoğrafları", "Charter sorgulama formu", "Premium altın/lacivert tasarım"]
+      },
+      {
+        "id": "pineloft",
+        "category": "web",
+        "thumb": "kaya",
+        "title": "Pineloft Selimiye — Butik Villa Kiralama Web Sitesi",
+        "short_desc": "Selimiye koyundaki butik villa kiralama için sakin, doğa ilhamlı web sitesi geliştirdim — mülk vitrini, olanaklar, yerel bölge rehberi ve doğrudan rezervasyon sorgulama formu.",
+        "tags": ["HTML/CSS", "JavaScript", "Butik Otel", "Responsive"],
+        "problem": "Huzurlu Selimiye koyundaki butik villa kiralama yalnızca komisyon alan listeleme sitelerine bağımlıydı; mülkün özgün hikayesini anlatamıyor, karakterini sergileyemiyor ve misafirlerle doğrudan ilişki kuramıyordu.",
+        "solution": "Mülkün doğal ortamını yansıtan zeytuni/krem/kiremit toprak paletiyle sakin, doğa ilhamlı bir web sitesi tasarladım: atmosferik hero, villa özellikleri ve olanakları, yerel Selimiye öne çıkanları, misafir yorumları ve doğrudan rezervasyon sorgulama formu.",
+        "result": "Mülk artık özgün ve dingin karakterini aktaran bağımsız bir dijital kimliğe sahip — doğrudan sorgular üretiyor, listeleme komisyonlarını atlıyor ve daha kişisel bir rezervasyon deneyimiyle geri gelen misafir tabanı oluşturuyor.",
+        "metrics": ["Doğrudan rezervasyon sorguları", "Mülk ve olanaklar vitrini", "Yerel bölge rehberi", "Komisyonsuz rezervasyon"]
+      },
+      {
+        "id": "beauty-chatbot",
+        "category": "web",
+        "thumb": "dental",
+        "title": "Güzellik Merkezi AI Chatbot Demosu",
+        "short_desc": "İki şubeli güzellik salonu için canlı AI chatbot demosu geliştirdim — hizmet, fiyat ve randevu sorularını doğal Türkçeyle yazma animasyonu ve markalı arayüzle yanıtlıyor.",
+        "tags": ["HTML/CSS", "JavaScript", "AI Chatbot", "Demo"],
+        "problem": "Güzellik salonları her gün düzinelerce tekrarlayan müşteri sorusu alıyor — belirli işlemler için fiyatlar, şube iletişim bilgileri, çalışma saatleri, randevu müsaitliği — tümü manuel olarak yanıtlanıyor ve personeli gerçek müşteri hizmetinden uzaklaştırıyor.",
+        "solution": "İki şubeli salon (Silivri + Beylikdüzü) için tam işlevli bir chatbot demosu geliştirdim: chatbot, fiyat ve süreleriyle birlikte 6 hizmet hakkındaki soruları, randevu rehberliğini, şube iletişim bilgilerini ve çalışma saatlerini — doğal Türkçe yanıtlar, yazma göstergesi ve temiz markalı arayüzle — yanıtlıyor.",
+        "result": "Demo, güzellik salonu sahiplerine gelen tekrarlayan sorguların büyük çoğunluğunu nasıl otomatize edebileceklerini somut olarak gösteriyor; personelin hizmet sunumuna odaklanmasını sağlarken 7/24 anında yanıt veren dijital bir varlık oluşturuyor.",
+        "metrics": ["6 hizmet yanıtlıyor", "Doğal dil yanıtları", "2 şube destekli", "7/24 müsaitlik"]
+      },
+      {
+        "id": "finans-takip",
+        "category": "web",
+        "thumb": "crm",
+        "title": "Kişisel Finans Takip Uygulaması",
+        "short_desc": "Gelir ve gider yönetimi, kategori bazlı dağılımlar ve canlı özet panosuyla Vite tabanlı kişisel finans takip uygulaması geliştirdim — tamamen yerel, sıfır backend.",
+        "tags": ["Vite", "JavaScript", "Finans", "Dashboard"],
+        "problem": "Birden fazla harcama kategorisinde kişisel finansları takip etmek elektronik tablolarla sıkıcı bir hal alıyor — girişler yavaş, görsel özet yok ve çoğu bütçe uygulaması ya çok karmaşık ya da gizlilik tavizleri içeren bulut hesabı gerektiriyor.",
+        "solution": "Vite kullanarak temiz, yerel öncelikli bir finans takip uygulaması geliştirdim: kullanıcılar kategoriler ve tutarlarla gelir-gider işlemleri ekliyor, pano otomatik olarak toplam ve kategori dağılımlarını hesaplıyor, tüm veriler tarayıcıda yerel olarak saklanıyor — hesap gerekmez, veri cihazdan çıkmaz.",
+        "result": "Herhangi bir kayıt veya bulut bağımlılığı olmadan paranın nereye gittiğini net gösteren, hızlı, özel ve sıfır sürtünmeli bir finans takip aracı — gizliliği ve sadeliği önemseyen kullanıcılar için ideal.",
+        "metrics": ["Gelir ve gider takibi", "Kategori dağılımları", "Canlı özet panosu", "%100 yerel ve gizli"]
       }
     ]
   },
